@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Cuntry Profile List View</string>
+
+    <string-array name="cuntry_name">
+        <item>Afghanistan</item>
+        <item>Aruba</item>
+        <item>Australia</item>
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Brazi</item>
+        <item>Canada</item>
+        <item>China</item>
+        <item>Colombia</item>
+        <item>Denmark</item>
+        <item>France</item>
+        <item>Ghana</item>
+        <item>Hungary</item>
+        <item>Iraq</item>
+        <item>India</item>
+
+    </string-array>
+
+    <string name="bangladesh">Bangladesh</string>
+    <string name="brazil">Brazil</string>
+    <string name="india">India</string>
+    <string name="bangladeshprofile">Poverty is deep and widespread, but Bangladesh has in recent years reduced population growth and improved health and education.
+
+Formerly East Pakistan, Bangladesh came into being only in 1971, when the two parts of Pakistan split after a bitter war which drew in neighbouring India.
+
+Bangladesh spent 15 years under military rule and, although democracy was restored in 1990 the political scene remains volatile.
+
+Islamist extremism has been rising in the usually tolerant country.
+
+The low-lying country is vulnerable to flooding and cyclones, and stands to be badly affected by any rises in sea levels.</string>
+
+    <string name="indiaprofile">
+        As a rising economic powerhouse and nuclear-armed state, India has emerged as an important regional power.
+
+But it is also tackling huge, social, economic and environmental problems.
+
+Home to some of the world s most ancient surviving civilizations, the Indian subcontinent - from the mountainous Afghan frontier to the jungles of Burma - is both vast and diverse in terms of its people, language and cultural traditions
+    </string>
+    <string name="brazilprofile">
+        Over the past few years it has made major strides in its efforts to raise millions out of poverty, although the gap between rich and poor remains wide.
+
+The exploitation of the Amazon rainforest much of which is in Brazil, has been a major international worry, since the wilderness is a vital regulator of the climate.
+
+A former Portuguese colony, Brazil has a highly diverse population, including indigenous Americans and the descendants of African slaves and European settlers.
+    </string>
+
+</resources>
