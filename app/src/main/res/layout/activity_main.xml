@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#47784f"
+    android:background="#7ca783"
     tools:context=".MainActivity">
 
 
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:dividerHeight="3dp"
-        android:divider="#bcadad"
+        android:divider="#c6bbbb"
         android:listSelector="#5c9c5a"
 
         >

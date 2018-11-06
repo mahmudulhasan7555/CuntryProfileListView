@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/textView_id"
+    
+    <LinearLayout
+        android:weightSum="4"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:textSize="30sp"
-        android:hint="Hello"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_margin="5dp"
-        />
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:id="@+id/imageV_id_sample"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/bangladeshi"
+            android:layout_margin="5dp"
+
+
+            />
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp">
+            <TextView
+                android:id="@+id/cuntryName_is_sample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bangladesh"
+
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"/>
+            <TextView
+                android:id="@+id/description_id_sample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See description of this cuntry"
+
+
+                android:textAppearance="?android:textAppearanceSmall"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    
 
 </LinearLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Cuntry Profile List View</string>
+    <string name="app_name">Cuntry Profile</string>
 
     <string-array name="cuntry_name">
         <item>Afghanistan</item>

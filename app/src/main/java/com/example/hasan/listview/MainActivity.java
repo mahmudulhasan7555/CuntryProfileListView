@@ -13,6 +13,24 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private ListView listView;
+    private String[] cuntryNames;
+    int[] flags = {R.drawable.afghanistan,
+            R.drawable.aruba,
+            R.drawable.australia1,
+            R.drawable.bahrain,
+            R.drawable.bangladeshi,
+            R.drawable.brazil1,
+            R.drawable.canada1,
+            R.drawable.china,
+            R.drawable.colombia,
+            R.drawable.denmark,
+            R.drawable.france,
+            R.drawable.ghana,
+            R.drawable.hungary,
+            R.drawable.iraq,
+            R.drawable.india
+    };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,20 +39,23 @@ public class MainActivity extends AppCompatActivity {
 
         listView = findViewById(R.id.listView_id);
 
-        final String[] cuntryName = getResources().getStringArray(R.array.cuntry_name);
+        cuntryNames = getResources().getStringArray(R.array.cuntry_name);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(MainActivity.this,R.layout.sample,R.id.textView_id,cuntryName);
-        listView.setAdapter(adapter);
+        CustomAdepter adepter =new CustomAdepter(MainActivity.this,cuntryNames,flags);
 
+        //ArrayAdapter<String> adepter = new ArrayAdapter<String>(MainActivity.this,R.layout.sample,R.id.textView_id,cuntryNames);
+        listView.setAdapter(adepter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String value = cuntryName[position];
+                String value = cuntryNames[position];
                 int p = position+1;
                 if (p==5){
                     Intent intent = new Intent(MainActivity.this,cuntry_profile.class);
                     intent.putExtra("tag","b");
                     startActivity(intent);
+
+                    // set profile
 
                 }
                 if (p==15){
